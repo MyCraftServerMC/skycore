@@ -1,0 +1,8 @@
+name: SkyCore
+api-version: 1.13
+author: Bendii
+main: hu.skyvillage.skycore.paper.PaperCorePlugin
+version: 0.1
+commands:
+  skycore:
+    description: dgtfdh
