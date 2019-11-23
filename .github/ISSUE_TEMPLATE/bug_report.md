@@ -24,14 +24,14 @@ A clear and concise description of what you expected to happen.
 If applicable, add screenshots to help explain your problem.
 
 **Wich type of server (please complete the following information):**
- [ ] Paper
- [ ] Spigot
- [ ] Bukkit
+- [ ] Paper
+- [ ] Spigot
+- [ ] Bukkit
 
 **Server OS (please complete the following information):**
- [ ] Windows
- [ ] MacOS
- [ ] Linux
+- [ ] Windows
+- [ ] MacOS
+- [ ] Linux
  - Version: 
 
 **Additional context**
