@@ -28,4 +28,9 @@ jobs:
         name: skycore-1.0-SNAPSHOT-all.jar
         # Directory containing files to upload
         path: build/libs/
-
+    - name: Upload to release
+      uses: JasonEtco/upload-to-release@master
+      with:
+        args: build/libs/skycore-1.0-SNAPSHOT-all.jar
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
