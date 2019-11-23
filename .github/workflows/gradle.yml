@@ -20,12 +20,12 @@ jobs:
     - name: Make Dir
       run: mkdir -p builds/
     - name: LS
-      run: ls
+      run: ls ./build/libs/
     - name: Upload artifact
       uses: actions/upload-artifact@v1.0.0
       with:
         # Artifact name
-        name: skycore-1.0-SNAPSHOT.jar
+        name: skycore-1.0-SNAPSHOT-all.jar
         # Directory containing files to upload
-        path: builds/
+        path: build/libs/
 
